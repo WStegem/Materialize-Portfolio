@@ -254,3 +254,13 @@ footer{
         font-size:1.5rem;
     }
 }
+
+@media screen and (max-width: 370px){
+    .navlink{
+        font-size:1rem;
+        padding:5px;
+    }
+    .textbody{
+        margin-top:150px;
+    }
+}
