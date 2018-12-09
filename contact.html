@@ -5,43 +5,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>William Stegemeier - Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
-
-<body>
 <!-- NAVBAR -->
-<div class=wrapper>
-    <nav>
-        <div class=widthset>
-            <h1>William Stegemeier</h1>
-            <ul class="navbar">
-                <li class="navbutton"><a class=" navlink"href="">Contact</a></li>
-                <li class="navbutton"><a class=" navlink"href="portfolio.html">Portfolio</a></li>
-                <li class="navbutton"><a class=" navlink"href="index.html">About</a></li>
-            </ul> 
-        </div>
-    </nav>
-<!-- BODY -->
-    <div class="widthset">
-        <div class=textbody>
-            <h2>Contact</h2>
-            <form>
-                Name:<br>
-                <input type="text" name="name" placeholder="John Smith"><br><br>
-                Email:<br>
-                <input type="email" name="email" placeholder="example@gmail.com"><br><br>
-                Message:<br>
-                <textarea name="message" placeholder="Hitting `Send` doesn't actually send this anywhere, it just makes you feel better. Isn't the cursor cool?"></textarea><br><br>
-                <input id=button type="submit" value="Send">
-            </form>
-        </div>
+<nav class="teal text-white" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">William Stegemeier</a>
+        <ul class="right hide-on-med-and-down">
+            <li class="active"><a href="">Contact</a></li>
+            <li><a class="navlink" href="portfolio.html">Portfolio</a></li>
+            <li><a class="navlink"href="index.html">About</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="sidenav">
+            <li><a href="#">Navbar Link</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
-</div>
+</nav>
+<!-- BODY -->
+<body>
+<!-- MAIN -->
+<main>
+    <br>
+    <div class='container'>
+            <div class="card white darken-1">
+                <div class="card-content black-text">
+                    <div class="card-title">Contact</div>
+                    <div class='input-field'>
+                        <form>
+                            <h5>Name:</h5>
+                            <input type="text" name="name" placeholder="John Smith"><br><br>
+                            <h5>Email:</h5>
+                            <input type="email" name="email" placeholder="example@gmail.com"><br><br>
+                            <h5>Message:</h5>
+                            <textarea class='materialize-textarea' name="message" placeholder="Hitting `Send` doesn't actually send this anywhere, it just makes you feel better. Isn't the future cool?"></textarea><br><br>
+                            <button class="btn waves-effect waves-light" type="submit" name="action">Send
+                                <i class="material-icons right"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+</main>
 <!-- FOOTER -->
-<footer>
+<footer class="page-footer teal">
+    <div class="footer-copyright">
         Copyright 2018 ©, probably
+    </div>
 </footer>
 
-</body>
-
-</html>
+</body></html>
