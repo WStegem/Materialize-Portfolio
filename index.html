@@ -5,51 +5,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>William Stegemeier - Home</title>
+    <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 
-<body>
 <!-- NAVBAR -->
-<div class=wrapper>
-    <nav>
-        <div class=widthset>
-            <h1>William Stegemeier</h1>
-            <ul class="navbar">
-                <li class="navbutton"><a class="navlink" href="contact.html">Contact</a></li>
-                <li class="navbutton"><a class="navlink" href="portfolio.html">Portfolio</a></li>
-                <li class="navbutton"><a class="navlink" href="">About</a></li>
-            </ul> 
-        </div>
-    </nav>
-<!-- BODY -->
-    <div class="widthset">
-        <div class=textbody>
-            <h2>About Me</h2>
-            <img id="profile" src="assets/images/profile.jpg" alt="Profile Picture">
-            <p>
-                Welcome to my demo site! This text will no doubt be updated with relevant information eventually, but for now I can fill it with meaningless drivel.
-            </p>
-            <p>
-                I am a student at the University of Texas at Austin, although my recent realization that engineering is for souless drones has sent my academic career off the cliff. Now I am looking into web development and pursuing a promising career as the personal slave of anyone who walks in the door of Kerbey Lane.
-            </p>
-            <p>
-                I like cats, video games, and sleep, although I can never find time for any of them. When I do have a few minutes to spare, I like to draw and make pixel art.
-            </p>
-            <br>
-            <p>
-                <ul>
-                    <li>Email: <a href="mailto:wstegem@utexas.edu">wstegem@utexas.edu</a></li>
-                    <li>GitHub: <a href="https://github.com/WStegem">WStegem</a></li>
-                </ul>
-            </p>
-        </div>
+<nav class="teal text-white" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">William Stegemeier</a>
+        <ul class="right hide-on-med-and-down">
+            <li class='active'><a class="navlink"href="">About</a></li>
+            <li><a class="navlink" href="portfolio.html">Portfolio</a></li>
+            <li><a class="navlink"href="contact.html">Contact</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="sidenav">
+            <li><a href="#">Navbar Link</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
-</div>
+</nav>
+<!-- BODY -->
+<body>
+<!-- MAIN -->
+<main>
+    <br>
+    <div class='container'>
+        <div class="card white darken-1">
+            <div class="card-content black-text">
+                <div class="card-title">About Me</div>
+                <div class='textbody left'>
+                    <figure class="card-profile-image left">
+                            <img id="profile" src="assets/images/profile.jpg" class="circle z-depth-2 responsive-img activator">
+                    </figure>
+                    <p>Welcome to my demo site! This text will no doubt be updated with relevant information eventually, but for now I can fill it with meaningless drivel.</p>
+                    <p>I am a student at the University of Texas at Austin, working on web development and Civil Engineering.</p>
+                    <p>I like cats, video games, and sleep, although I can never find time for any of them. When I do have a few minutes to spare, I like to draw and make pixel art.</p>
+                    <ul>
+                        <li>Email: <a href="mailto:wstegem@utexas.edu">wstegem@utexas.edu</a></li>
+                        <li>GitHub: <a href="https://github.com/WStegem">WStegem</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</main>
 <!-- FOOTER -->
-<footer>
-    Copyright 2018 ©, probably
+<footer class="page-footer teal">
+    <div class="footer-copyright">
+        Copyright 2018 ©, probably
+    </div>
 </footer>
 
-</body>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
 
-</html>
+</body></html>

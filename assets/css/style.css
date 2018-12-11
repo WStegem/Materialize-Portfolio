@@ -1,16 +1,49 @@
+html{
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
 body {
-display: flex;
-min-height: 100vh;
-flex-direction: column;
-background:url("../images/connectwork.png");
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background:url("../images/connectwork.png");
 }
 main {
-flex: 1 0 auto;
+    flex: 1 0 auto;
 }
 .brand-logo{
     white-space:nowrap;
 }
 .card-title{
-    font-weight: bold;
-    font-size:20px;
+    font-size:2rem !important;
+}
+.card-content .card-content .card-title{
+    font-size:1.3rem !important;
+}
+.card-profile-image{
+    width:200px;
+}
+.textbody{
+    display: inline-block;
+    
+}
+.card-content{
+    display: inline-block;
+    width: 100%;
+    font-size:1.1rem !important;
+}
+input, textarea{
+    font-size:1.1rem !important;
+}
+.navlink{
+    font-size:1.2rem;
+}
+.close{
+    position: absolute;
+    top:20px;
+    right:20px;
+}
+.more{
+    position: absolute;
+    bottom:30px;
+    right:20px;
 }
