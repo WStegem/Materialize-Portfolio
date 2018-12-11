@@ -1,1 +1,1 @@
-Functional site here: https://wstegem.github.io/Responsive-Portfolio/
+Functional site here: https://wstegem.github.io/Materialize-Portfolio/
