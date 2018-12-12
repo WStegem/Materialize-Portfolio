@@ -6,6 +6,7 @@ body {
     min-height: 100vh;
     flex-direction: column;
     background:url("../images/connectwork.png");
+    min-width:380px;
 }
 main {
     flex: 1 0 auto;
@@ -15,12 +16,15 @@ main {
 }
 .card-title{
     font-size:2rem !important;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    align-content: center;
 }
 .card-content .card-content .card-title{
     font-size:1.3rem !important;
 }
 .card-profile-image{
     width:200px;
+    margin-left:16px;
 }
 .textbody{
     display: inline-block;
@@ -46,4 +50,12 @@ input, textarea{
     position: absolute;
     bottom:30px;
     right:20px;
+}
+.infoLinks{
+    display:flex;
+    text-align: center;
+    margin:auto;
+}
+a{
+    color: teal;
 }
